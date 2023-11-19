@@ -114,25 +114,33 @@ https://www.freecodecamp.org/news/how-to-manage-state-in-your-react-apps/
 ![Alt text](image-8.png)
 
 ## What are portals in React?
+
 Portal is a recommended way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.
 
 ![Alt text](image-9.png)
 
 ## synthetic event in React
 
-## what is context api (avoid prop drilling) 
+In React, when you click a button or do something on a webpage, that's called an "event." React helps handle these events in a consistent way across different web browsers.
+
+When you create a React component (like a button), you can add functions to respond to events, like when the button is clicked. React gives you a special kind of event, called a "synthetic event," to make it work smoothly.
+
+## what is context api (avoid prop drilling)
+
+The React Context API is a feature that allows you to share state between components without having to pass props down through the component tree. This can be useful for sharing global state, such as the current user or theme, with components that are deep in the tree.
 
 ## use callbackHook in React
 
 The useMemo and useCallback Hooks are similar. The main difference is that useMemo returns a memoized value and useCallback returns a memoized function.
+
 ## redux and its three components (action, store and reducer)
 
-Redux is a JavaScript library that helps manage the state of an application. It provides a centralized store for the state that is shared across the entire application. Redux uses events called actions to ensure that the state can only be updated in a predictable fashion. 
-
+Redux is a JavaScript library that helps manage the state of an application. It provides a centralized store for the state that is shared across the entire application. Redux uses events called actions to ensure that the state can only be updated in a predictable fashion.
 
 Actions: Describe what happened, but don't specify how the application's state changes
 Store: Stores the application's global state in an object tree
 Reducers: Calculate the new state based on the action it receives
 
 ## use memo
+
 UseMemo is a hook in React that returns a memoized value. Memoization is a concept in computer science that returns a cached result instead of recomputing a function with a given argument.
