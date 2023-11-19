@@ -48,6 +48,8 @@ They are ES6 classes that extend from React.Component.
 Class components have their own internal state and can have lifecycle methods, such as componentDidMount, componentDidUpdate, etc.
 They are also known as stateful components because they can manage state.
 
+![Alt text](image-6.png)
+
 ## stateful and stateless
 
 Stateful components (or stateful widgets) are components that manage their own state. Class components are often stateful, as they can hold and update their internal state.
@@ -75,11 +77,35 @@ Need for Lifecycle Methods
 Inheritance
 
 ## What is JSX?
+
 JSX is a shorthand for JavaScript XML. This is a type of file used by React which utilizes the expressiveness of JavaScript along with HTML like template syntax.
 
 ## How different is React’s ES6 syntax when compared to ES5?
+
 require vs import
 export vs exports
 component and function
 props
 state
+
+## state management in React
+
+State management in React is the process of storing and managing the data that is used to render a React application. It is an important part of any React application, as it allows the application to keep track of its current state and to update the UI when the state changes.
+
+## how to manage state
+
+The best way to manage state in your React application will depend on the specific needs of your application. If you have a small to medium-sized amount of state, the useState hook is a good option. If you have more complex state management needs, the useReducer hook, Context API, or a global state management library may be a better choice.
+![Alt text](image-2.png)
+
+There are four main types of state you need to properly manage in your React apps:
+
+Local state
+Global state
+Server state
+URL state
+https://www.freecodecamp.org/news/how-to-manage-state-in-your-react-apps/
+
+![Alt text](image-3.png)
+![Alt text](image-4.png)
+![Alt text](image-5.png)
+![Alt text](image-7.png)
