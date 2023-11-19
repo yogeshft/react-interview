@@ -7,9 +7,11 @@ Even though it was open-sourced only in 2015, it has one of the largest communit
 
 ## features of React
 
-It uses the virtual DOM
-It uses server-side rendering.
-It follows uni-directional data flow or data binding.
+JSX
+Components
+Virtual DOM
+One-way data-binding
+High performance
 
 ## what is virtual dom?
 
@@ -109,3 +111,28 @@ https://www.freecodecamp.org/news/how-to-manage-state-in-your-react-apps/
 ![Alt text](image-4.png)
 ![Alt text](image-5.png)
 ![Alt text](image-7.png)
+![Alt text](image-8.png)
+
+## What are portals in React?
+Portal is a recommended way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.
+
+![Alt text](image-9.png)
+
+## synthetic event in React
+
+## what is context api (avoid prop drilling) 
+
+## use callbackHook in React
+
+The useMemo and useCallback Hooks are similar. The main difference is that useMemo returns a memoized value and useCallback returns a memoized function.
+## redux and its three components (action, store and reducer)
+
+Redux is a JavaScript library that helps manage the state of an application. It provides a centralized store for the state that is shared across the entire application. Redux uses events called actions to ensure that the state can only be updated in a predictable fashion. 
+
+
+Actions: Describe what happened, but don't specify how the application's state changes
+Store: Stores the application's global state in an object tree
+Reducers: Calculate the new state based on the action it receives
+
+## use memo
+UseMemo is a hook in React that returns a memoized value. Memoization is a concept in computer science that returns a cached result instead of recomputing a function with a given argument.
