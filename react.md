@@ -1,3 +1,16 @@
+## What is React?
+
+React is a JavaScript library.
+It follows the component based approach which helps in building reusable UI components.
+It is used for developing complex and interactive web and mobile UI.
+Even though it was open-sourced only in 2015, it has one of the largest communities supporting it.
+
+## features of React
+
+It uses the virtual DOM
+It uses server-side rendering.
+It follows uni-directional data flow or data binding.
+
 ## what is virtual dom?
 
 React uses Virtual DOM exists which is like a lightweight copy of the actual DOM(a virtual representation of the DOM).
@@ -49,6 +62,7 @@ Functional components are easier to read, write, and test. They encourage the us
 Class components, however, may still be relevant in certain situations, especially if you are working with an older codebase or have specific use cases that align well with class-based features.
 
 ## Use Functional Components with Hooks When
+
 functional components:
 Simplicity is a Priority
 Reusability of Logic
@@ -60,4 +74,12 @@ Working with Legacy Code
 Need for Lifecycle Methods
 Inheritance
 
+## What is JSX?
+JSX is a shorthand for JavaScript XML. This is a type of file used by React which utilizes the expressiveness of JavaScript along with HTML like template syntax.
 
+## How different is React’s ES6 syntax when compared to ES5?
+require vs import
+export vs exports
+component and function
+props
+state
