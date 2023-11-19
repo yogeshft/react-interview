@@ -7,11 +7,11 @@ Even though it was open-sourced only in 2015, it has one of the largest communit
 
 ## features of React
 
-JSX
-Components
-Virtual DOM
-One-way data-binding
-High performance
+1. JSX
+2. Components
+3. Virtual DOM
+4. One-way data-binding
+5. High performance
 
 ## what is virtual dom?
 
