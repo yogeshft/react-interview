@@ -139,8 +139,29 @@ Redux is a JavaScript library that helps manage the state of an application. It 
 
 Actions: Describe what happened, but don't specify how the application's state changes
 Store: Stores the application's global state in an object tree
-Reducers: Calculate the new state based on the action it receives
+Reducers: it is a pure function that takes the current state and an action as arguments and returns the next state.
 
 ## use memo
 
 UseMemo is a hook in React that returns a memoized value. Memoization is a concept in computer science that returns a cached result instead of recomputing a function with a given argument.
+
+## What is Webpack?
+
+Webpack is a famous module builder that we extensively use during our Web Development Journey. It is used for those applications that use Javascript.
+
+Webpack only understands Javascript and JSON. So it converts other frontend files like HTML and CSS into modules with the help of a loader and thus provides a complete frontend solution to us. It internally makes a dependency graph while processing any application.
+
+Diffing is how React decides which DOM elements need to be added or modified. If, between renders, a certain React element stays at the same position in the element tree, the corresponding DOM element and component state will stay the same. If the element changed to a different position, or if it’s a different element type, the DOM element and state will be destroyed.
+
+## what if we remove the dependency array in hook?
+
+If you remove the dependency array in the hook, the effect will only be run once, upon component mount. This is because the hook will not be able to track any changes to the component's state or props, and therefore will not be able to re-run the effect when those changes occur.
+
+## is prop drilling good ? and what are the alternatives?
+
+Prop drilling is a technique in React for passing data from parent components to child components. It can be effective for sharing data, but it can also lead to issues such as: Code duplication, Increased cognitive load, Decreased maintainability, Messy code, Debugging difficulties.
+Some alternatives to prop drilling include: React Context, Redux, MobX, Hooks, Composition.
+
+
+## when is the better to use custom hooks with example
+Custom hooks are reusable functions that can be used to simplify component logic and manage local component state. They can also handle specific functionality like form validation or API calls.
